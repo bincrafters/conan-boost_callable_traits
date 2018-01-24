@@ -1,8 +1,8 @@
 ## Package Status
 
-| Bintray | Appveyor | Travis | 
-|---------|-----------|--------|
-|BINTRAY_BADGE_URL|APPVEYOR_BADGE_URL|TRAVIS_BADGE_URL|
+| Bintray | Windows | Linux | OSX |
+|---------|-----------|--------|------------|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_callable_traits%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_callable_traits%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_callable_traits?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost_callable_traits)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_callable_traits.svg)](https://travis-ci.org/bincrafters/conan-boost_callable_traits)|[![CircleCI](https://circleci.com/gh/bincrafters/conan-boost_callable_traits.svg?style=svg)](https://circleci.com/gh/bincrafters/conan-boost_callable_traits)|
 
 ## Conan.io Information
 
