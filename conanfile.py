@@ -8,6 +8,7 @@ class BoostCallable_TraitsConan(ConanFile):
     name = "boost_callable_traits"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_callable_traits"
+    author = "Bincrafters <bincrafters@gmail.com>"
     exports = ["LICENSE.md"]
     lib_short_names = ["callable_traits"]
     is_header_only = True
