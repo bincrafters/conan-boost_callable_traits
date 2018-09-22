@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 
 from conans import python_requires
+import os
 
-
-base = python_requires("boost_base")
+base = python_requires("boost_base/1.67.0@{user}/{channel}".format(
+                                  user=os.getenv("CONAN_USER"),
+                                  channel=os.getenv("CONAN_CHANNEL")))
 
 class BoostCallable_TraitsConan(base.BoostBaseConan):
     name = "boost_callable_traits"
