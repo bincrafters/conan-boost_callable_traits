@@ -4,9 +4,7 @@
 from conans import python_requires
 import os
 
-base = python_requires("boost_base/1.67.0@{user}/{channel}".format(
-                                  user=os.getenv("CONAN_USER"),
-                                  channel=os.getenv("CONAN_CHANNEL")))
+base = python_requires("boost_base/1.67.0@bincrafters/testing"))
 
 class BoostCallable_TraitsConan(base.BoostBaseConan):
     name = "boost_callable_traits"
